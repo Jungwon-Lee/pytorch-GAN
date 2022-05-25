@@ -3,6 +3,7 @@ pytorch ver.1.11.0
 
 Each foler
  - model.py - generator, discriminator
+ - dataset.py - (Optional) Custom dataset
  - gan.py - excutable python file
  - gan_ex.ipynb - exercise GAN with some explanation
 
