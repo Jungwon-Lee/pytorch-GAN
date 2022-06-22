@@ -1,5 +1,9 @@
-# GAN
-pytorch ver.1.11.0
+# Pytorch GAN
+
+## 2022.06.22 ~ Refactoring to Pytorch-lightning 
+
+__pytorch ver.1.11.0__
+
 
 Each foler
  - model.py - generator, discriminator
