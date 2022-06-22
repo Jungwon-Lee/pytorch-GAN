@@ -1,0 +1,11 @@
+model_name: GAN
+
+experiment_name: sample_test
+
+gpus: 1
+dataset: "MNIST"
+batch_size: 64
+lr: 0.0002
+b1: 0.5
+b2: 0.999
+latent_dim: 100
