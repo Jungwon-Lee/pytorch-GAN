@@ -1,0 +1,13 @@
+experiment_name: sample_conditional_gan
+
+gpus: 1
+dataset: "MNIST"
+n_classes: 10
+mnist_shape: !!python/tuple [1, 28, 28]
+
+batch_size: 64
+lr: 0.0002
+b1: 0.5
+b2: 0.999
+latent_dim: 100
+        
