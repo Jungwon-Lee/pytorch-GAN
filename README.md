@@ -1,20 +1,19 @@
-# Pytorch GAN
-
-## 2022.06.22 ~ Start Refactoring to Pytorch-lightning 
+# Pytorch-lightning GAN
 
 ### Pytorch version
-__pytorch ver.1.11.0__
+```
+pytorch ver 1.11.0
+```
+
+### Pytorch-lightning version
+```
+pytorch ver 0.8.5
+```
 
 ### Execution
 ```
 python train.py --model_name "GAN"
 ```
-
-### Each foler
- - model.py - generator, discriminator
- - dataset.py - (Optional) Custom dataset
- - gan.py - excutable python file
- - gan_ex.ipynb - exercise GAN with some explanation
 
 ### GANs
 1. Basic GAN
@@ -22,3 +21,10 @@ python train.py --model_name "GAN"
 3. Deep Convolutional GAN
 4. Least squares GAN
 5. Pix2Pix - Image-to-Image Translation
+
+### Planning to add
+- SRGAN
+- CycleGAN
+- Pix2PixHD
+
+
