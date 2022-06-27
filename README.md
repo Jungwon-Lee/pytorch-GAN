@@ -1,13 +1,9 @@
 # Pytorch-lightning GAN
 
-### Pytorch version
+### Version
 ```
-pytorch ver 1.11.0
-```
-
-### Pytorch-lightning version
-```
-pytorch ver 0.8.5
+pytorch 1.11.0
+pytorch-lightning 0.8.5
 ```
 
 ### Execution
