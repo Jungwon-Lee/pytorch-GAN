@@ -1,0 +1,17 @@
+experiment_name: sample_pix2pix
+
+gpus: 1
+cpus: 3
+
+dataset: ""
+img_shape: !!python/tuple [3, 256, 256]
+
+img_height: 256
+img_width: 256
+channels: 3
+
+batch_size: 64
+lr: 0.0002
+b1: 0.5
+b2: 0.999
+lambda_pixel: 100
